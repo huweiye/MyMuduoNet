@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huweiye/Core_Muduo_C++11/testcase/RPC.c++
+
+/home/huweiye/Core_Muduo_C++11/testcase/main.c++
+iostream
+-
+

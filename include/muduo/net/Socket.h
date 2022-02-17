@@ -3,6 +3,8 @@
 #define MUDUO_NET_SOCKET_H
 
 #include <boost/noncopyable.hpp>
+#include<netinet/tcp.h>
+#include<stdlib.h>
 
 namespace muduo
 {
@@ -36,6 +38,8 @@ class Socket : boost::noncopyable
   /// abort if address in use
   void listen();
 
+  bool getTcpInfo(struct tcp_info*) const;
+  bool getTcpInfoString(char* buf, int len) const;
   /// On success, returns a non-negative integer that is
   /// a descriptor for the accepted socket, which has been
   /// set to non-blocking and close-on-exec. *peeraddr is assigned.

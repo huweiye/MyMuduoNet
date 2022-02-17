@@ -75,6 +75,7 @@ public://共有成员函数
     void set_index(int idx) { index_ = idx; }
     int interested_events() const { return events_; }
     bool isNoneEvent() const { return events_ == kNoneEvent; }
+    void tie(const std::shared_ptr<void>&);
 };
 }
 }

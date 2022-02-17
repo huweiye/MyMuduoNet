@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/main.dir/testcase/main.c++.o CMakeFiles/main.dir/testcase/RPC.c++.o  -o ../bin/main -rdynamic ../lib/libmymuduo_net.a 
