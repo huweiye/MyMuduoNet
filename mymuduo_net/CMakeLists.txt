@@ -6,6 +6,7 @@ set(MYMUDUONET_SRC_LIST
     ./PollPoller.c++
     ./EPollPoller.c++
     ./EventLoopThread.c++
+    ./EventLoopThreadPool.c++
 
     ./Timer.c++
     ./TimerQueue.c++
@@ -15,6 +16,8 @@ set(MYMUDUONET_SRC_LIST
     ./InetAddress.c++
 
     ./Acceptor.c++
+    ./TcpServer.c++
+    ./TcpConnection.c++
 
     )
 set(LIBRARY_OUTPUT_PATH ../lib)
